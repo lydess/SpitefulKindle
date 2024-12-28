@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DAC949E2D1FE1FB00E3D4F1 /* ShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1DAC94942D1FE1FA00E3D4F1 /* ShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DAC94742D1FE1BE00E3D4F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DAC945B2D1FE1BC00E3D4F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DAC94622D1FE1BC00E3D4F1;
+			remoteInfo = SpitefulKindle;
+		};
+		1DAC947E2D1FE1BE00E3D4F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DAC945B2D1FE1BC00E3D4F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DAC94622D1FE1BC00E3D4F1;
+			remoteInfo = SpitefulKindle;
+		};
+		1DAC949C2D1FE1FB00E3D4F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DAC945B2D1FE1BC00E3D4F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DAC94932D1FE1FA00E3D4F1;
+			remoteInfo = ShareExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1DAC94A32D1FE1FB00E3D4F1 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1DAC949E2D1FE1FB00E3D4F1 /* ShareExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1DAC94632D1FE1BC00E3D4F1 /* SpitefulKindle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpitefulKindle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DAC94732D1FE1BE00E3D4F1 /* SpitefulKindleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpitefulKindleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DAC947D2D1FE1BE00E3D4F1 /* SpitefulKindleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpitefulKindleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DAC94942D1FE1FA00E3D4F1 /* ShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1DAC949F2D1FE1FB00E3D4F1 /* Exceptions for "ShareExtension" folder in "ShareExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1DAC94932D1FE1FA00E3D4F1 /* ShareExtension */;
+		};
+		1DAC94A82D20AE0600E3D4F1 /* Exceptions for "SpitefulKindle" folder in "ShareExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Data/DataManager.swift,
+				Data/StateManager.swift,
+				Views/UserViews/DebugView.swift,
+				Views/UserViews/FicView.swift,
+			);
+			target = 1DAC94932D1FE1FA00E3D4F1 /* ShareExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1DAC94652D1FE1BC00E3D4F1 /* SpitefulKindle */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1DAC94A82D20AE0600E3D4F1 /* Exceptions for "SpitefulKindle" folder in "ShareExtension" target */,
+			);
+			path = SpitefulKindle;
+			sourceTree = "<group>";
+		};
+		1DAC94762D1FE1BE00E3D4F1 /* SpitefulKindleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SpitefulKindleTests;
+			sourceTree = "<group>";
+		};
+		1DAC94802D1FE1BE00E3D4F1 /* SpitefulKindleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SpitefulKindleUITests;
+			sourceTree = "<group>";
+		};
+		1DAC94952D1FE1FA00E3D4F1 /* ShareExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1DAC949F2D1FE1FB00E3D4F1 /* Exceptions for "ShareExtension" folder in "ShareExtension" target */,
+			);
+			path = ShareExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DAC94602D1FE1BC00E3D4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DAC94702D1FE1BE00E3D4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DAC947A2D1FE1BE00E3D4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DAC94912D1FE1FA00E3D4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DAC945A2D1FE1BC00E3D4F1 = {
+			isa = PBXGroup;
+			children = (
+				1DAC94652D1FE1BC00E3D4F1 /* SpitefulKindle */,
+				1DAC94762D1FE1BE00E3D4F1 /* SpitefulKindleTests */,
+				1DAC94802D1FE1BE00E3D4F1 /* SpitefulKindleUITests */,
+				1DAC94952D1FE1FA00E3D4F1 /* ShareExtension */,
+				1DAC94642D1FE1BC00E3D4F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DAC94642D1FE1BC00E3D4F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DAC94632D1FE1BC00E3D4F1 /* SpitefulKindle.app */,
+				1DAC94732D1FE1BE00E3D4F1 /* SpitefulKindleTests.xctest */,
+				1DAC947D2D1FE1BE00E3D4F1 /* SpitefulKindleUITests.xctest */,
+				1DAC94942D1FE1FA00E3D4F1 /* ShareExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DAC94622D1FE1BC00E3D4F1 /* SpitefulKindle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DAC94872D1FE1BE00E3D4F1 /* Build configuration list for PBXNativeTarget "SpitefulKindle" */;
+			buildPhases = (
+				1DAC945F2D1FE1BC00E3D4F1 /* Sources */,
+				1DAC94602D1FE1BC00E3D4F1 /* Frameworks */,
+				1DAC94612D1FE1BC00E3D4F1 /* Resources */,
+				1DAC94A32D1FE1FB00E3D4F1 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DAC949D2D1FE1FB00E3D4F1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1DAC94652D1FE1BC00E3D4F1 /* SpitefulKindle */,
+			);
+			name = SpitefulKindle;
+			packageProductDependencies = (
+			);
+			productName = SpitefulKindle;
+			productReference = 1DAC94632D1FE1BC00E3D4F1 /* SpitefulKindle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DAC94722D1FE1BE00E3D4F1 /* SpitefulKindleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DAC948A2D1FE1BE00E3D4F1 /* Build configuration list for PBXNativeTarget "SpitefulKindleTests" */;
+			buildPhases = (
+				1DAC946F2D1FE1BE00E3D4F1 /* Sources */,
+				1DAC94702D1FE1BE00E3D4F1 /* Frameworks */,
+				1DAC94712D1FE1BE00E3D4F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DAC94752D1FE1BE00E3D4F1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1DAC94762D1FE1BE00E3D4F1 /* SpitefulKindleTests */,
+			);
+			name = SpitefulKindleTests;
+			packageProductDependencies = (
+			);
+			productName = SpitefulKindleTests;
+			productReference = 1DAC94732D1FE1BE00E3D4F1 /* SpitefulKindleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DAC947C2D1FE1BE00E3D4F1 /* SpitefulKindleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DAC948D2D1FE1BE00E3D4F1 /* Build configuration list for PBXNativeTarget "SpitefulKindleUITests" */;
+			buildPhases = (
+				1DAC94792D1FE1BE00E3D4F1 /* Sources */,
+				1DAC947A2D1FE1BE00E3D4F1 /* Frameworks */,
+				1DAC947B2D1FE1BE00E3D4F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DAC947F2D1FE1BE00E3D4F1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1DAC94802D1FE1BE00E3D4F1 /* SpitefulKindleUITests */,
+			);
+			name = SpitefulKindleUITests;
+			packageProductDependencies = (
+			);
+			productName = SpitefulKindleUITests;
+			productReference = 1DAC947D2D1FE1BE00E3D4F1 /* SpitefulKindleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1DAC94932D1FE1FA00E3D4F1 /* ShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DAC94A02D1FE1FB00E3D4F1 /* Build configuration list for PBXNativeTarget "ShareExtension" */;
+			buildPhases = (
+				1DAC94902D1FE1FA00E3D4F1 /* Sources */,
+				1DAC94912D1FE1FA00E3D4F1 /* Frameworks */,
+				1DAC94922D1FE1FA00E3D4F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1DAC94952D1FE1FA00E3D4F1 /* ShareExtension */,
+			);
+			name = ShareExtension;
+			packageProductDependencies = (
+			);
+			productName = ShareExtension;
+			productReference = 1DAC94942D1FE1FA00E3D4F1 /* ShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DAC945B2D1FE1BC00E3D4F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					1DAC94622D1FE1BC00E3D4F1 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1DAC94722D1FE1BE00E3D4F1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1DAC94622D1FE1BC00E3D4F1;
+					};
+					1DAC947C2D1FE1BE00E3D4F1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1DAC94622D1FE1BC00E3D4F1;
+					};
+					1DAC94932D1FE1FA00E3D4F1 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 1DAC945E2D1FE1BC00E3D4F1 /* Build configuration list for PBXProject "SpitefulKindle" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DAC945A2D1FE1BC00E3D4F1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1DAC94642D1FE1BC00E3D4F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DAC94622D1FE1BC00E3D4F1 /* SpitefulKindle */,
+				1DAC94722D1FE1BE00E3D4F1 /* SpitefulKindleTests */,
+				1DAC947C2D1FE1BE00E3D4F1 /* SpitefulKindleUITests */,
+				1DAC94932D1FE1FA00E3D4F1 /* ShareExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DAC94612D1FE1BC00E3D4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DAC94712D1FE1BE00E3D4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DAC947B2D1FE1BE00E3D4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DAC94922D1FE1FA00E3D4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DAC945F2D1FE1BC00E3D4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DAC946F2D1FE1BE00E3D4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DAC94792D1FE1BE00E3D4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DAC94902D1FE1FA00E3D4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DAC94752D1FE1BE00E3D4F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DAC94622D1FE1BC00E3D4F1 /* SpitefulKindle */;
+			targetProxy = 1DAC94742D1FE1BE00E3D4F1 /* PBXContainerItemProxy */;
+		};
+		1DAC947F2D1FE1BE00E3D4F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DAC94622D1FE1BC00E3D4F1 /* SpitefulKindle */;
+			targetProxy = 1DAC947E2D1FE1BE00E3D4F1 /* PBXContainerItemProxy */;
+		};
+		1DAC949D2D1FE1FB00E3D4F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DAC94932D1FE1FA00E3D4F1 /* ShareExtension */;
+			targetProxy = 1DAC949C2D1FE1FB00E3D4F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DAC94852D1FE1BE00E3D4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DAC94862D1FE1BE00E3D4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DAC94882D1FE1BE00E3D4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpitefulKindle/Preview Content\"";
+				DEVELOPMENT_TEAM = 3KGQYCYXPG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EmDev.SpitefulKindle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DAC94892D1FE1BE00E3D4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpitefulKindle/Preview Content\"";
+				DEVELOPMENT_TEAM = 3KGQYCYXPG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EmDev.SpitefulKindle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DAC948B2D1FE1BE00E3D4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KGQYCYXPG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EmDev.SpitefulKindleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpitefulKindle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpitefulKindle";
+			};
+			name = Debug;
+		};
+		1DAC948C2D1FE1BE00E3D4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KGQYCYXPG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EmDev.SpitefulKindleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpitefulKindle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpitefulKindle";
+			};
+			name = Release;
+		};
+		1DAC948E2D1FE1BE00E3D4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KGQYCYXPG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EmDev.SpitefulKindleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpitefulKindle;
+			};
+			name = Debug;
+		};
+		1DAC948F2D1FE1BE00E3D4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KGQYCYXPG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EmDev.SpitefulKindleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpitefulKindle;
+			};
+			name = Release;
+		};
+		1DAC94A12D1FE1FB00E3D4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KGQYCYXPG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShareExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EmDev.SpitefulKindle.ShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DAC94A22D1FE1FB00E3D4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KGQYCYXPG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShareExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EmDev.SpitefulKindle.ShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DAC945E2D1FE1BC00E3D4F1 /* Build configuration list for PBXProject "SpitefulKindle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DAC94852D1FE1BE00E3D4F1 /* Debug */,
+				1DAC94862D1FE1BE00E3D4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DAC94872D1FE1BE00E3D4F1 /* Build configuration list for PBXNativeTarget "SpitefulKindle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DAC94882D1FE1BE00E3D4F1 /* Debug */,
+				1DAC94892D1FE1BE00E3D4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DAC948A2D1FE1BE00E3D4F1 /* Build configuration list for PBXNativeTarget "SpitefulKindleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DAC948B2D1FE1BE00E3D4F1 /* Debug */,
+				1DAC948C2D1FE1BE00E3D4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DAC948D2D1FE1BE00E3D4F1 /* Build configuration list for PBXNativeTarget "SpitefulKindleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DAC948E2D1FE1BE00E3D4F1 /* Debug */,
+				1DAC948F2D1FE1BE00E3D4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DAC94A02D1FE1FB00E3D4F1 /* Build configuration list for PBXNativeTarget "ShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DAC94A12D1FE1FB00E3D4F1 /* Debug */,
+				1DAC94A22D1FE1FB00E3D4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DAC945B2D1FE1BC00E3D4F1 /* Project object */;
+}
