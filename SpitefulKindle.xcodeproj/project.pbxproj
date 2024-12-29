@@ -68,6 +68,7 @@
 			membershipExceptions = (
 				Data/DataManager.swift,
 				Data/StateManager.swift,
+				Networking/NetworkManager.swift,
 				Views/UserViews/DebugView.swift,
 				Views/UserViews/FicView.swift,
 			);

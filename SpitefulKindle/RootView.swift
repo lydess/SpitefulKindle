@@ -10,6 +10,7 @@ import SwiftUI
 
 struct RootView: View {
     @StateObject var stateHandler = StateManager()
+
    
     var body: some View {
         VStack {
